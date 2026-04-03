@@ -3,7 +3,7 @@ import type { SlideConfig } from '../types/slide'
 export const SLIDES: readonly SlideConfig[] = [
   // Presenter 1: Residual Network (sky-400)
   { id: 'title', title: { en: 'Maximum Flow', zh: '最大流' }, presenter: 1, durationHint: 30, maxSubStep: 0 },
-  { id: 'problem_intro', title: { en: 'The Pipeline Problem', zh: '管道问题' }, presenter: 1, durationHint: 60, maxSubStep: 0 },
+  { id: 'problem_intro', title: { en: 'A Real-World Problem', zh: '一个现实问题' }, presenter: 1, durationHint: 60, maxSubStep: 0 },
   { id: 'flow_network', title: { en: 'Flow Network', zh: '流网络' }, presenter: 1, durationHint: 90, maxSubStep: 2 },
   { id: 'flow_rules', title: { en: 'Rules of Flow', zh: '流的规则' }, presenter: 1, durationHint: 90, maxSubStep: 2 },
   { id: 'residual_concept', title: { en: 'Residual Capacity', zh: '残留容量' }, presenter: 1, durationHint: 120, maxSubStep: 3 },
